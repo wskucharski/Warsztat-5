@@ -1,3 +1,9 @@
 .idea
 *.iml
 *.pyc
+
+
+# virtualenv
+.venv
+venv/
+ENV/
