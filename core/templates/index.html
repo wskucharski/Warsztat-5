@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}Strona głównia{% endblock %}
+{% block container %}
+    <ul>
+    {% for photo in photos %}
+        <img src="{{ photo.file.url }}" width="300px" height="200px"/>
+    <li></li>
+    {% endfor %}
+    </ul>
+{% endblock %}

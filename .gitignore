@@ -1,7 +1,8 @@
 .idea
 *.iml
 *.pyc
-
+media
+.DS_store
 
 # virtualenv
 .venv
